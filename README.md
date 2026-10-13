@@ -96,30 +96,3 @@ JSON Response
           |
           v
 WhatsApp Customer Reply
-
-Documented Make.com backend workflow screenshots
-## Make.com Workflow Screenshots
-
-### 1. Complete Backend Overview
-The full Make.com scenario showing enquiry processing,
-business rules, routing, logging and responses.
-
-![Complete Backend Overview](images/01-backend-overview.png)
-
-### 2. Webhook, Conversation Memory and AI Extraction
-Duplicate protection, Data Store lookup, AI extraction
-and AI failure handling.
-
-![Webhook and AI Extraction](images/02-backend-ai.png)
-
-### 3. Product Lookup and Delivery Rules
-Google Sheets lookups, delivery validation and
-exception handling.
-
-![Product Lookup and Delivery Rules](images/03-backend-business-rules.png)
-
-### 4. Decision Routing and Response Handling
-Human Review, Clarification, Ready Order and General
-Enquiry branches with logging and webhook responses.
-
-![Decision Routing](images/04-backend-routing.png)
