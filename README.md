@@ -46,60 +46,6 @@ The enquiry is then routed to the appropriate workflow and a customer response i
 
 ## Architecture
 
-```text
-Customer WhatsApp Message
-          |
-          v
-WhatsApp Business Cloud
-          |
-          v
-WhatsApp Gateway
-          |
-          v
-HTTP Request
-          |
-          v
-Backend Custom Webhook
-          |
-          v
-Duplicate Protection
-          |
-          v
-Conversation State Lookup
-          |
-          v
-AI Structured Extraction
-          |
-          v
-Product Lookup
-          |
-          v
-Business Rules
-          |
-          v
-Price & Delivery Calculation
-          |
-          v
-Decision Router
-     /      |       \
-    /       |        \
-Order   Clarification  Human Review
-    \       |        /
-     \      |       /
-      General Enquiry
-          |
-          v
-Conversation State Update
-          |
-          v
-JSON Response
-          |
-          v
-WhatsApp Customer Reply
-
-```
-### System Architecture Diagram
-
 The diagram below provides a simplified overview of
 the automation architecture.
 
