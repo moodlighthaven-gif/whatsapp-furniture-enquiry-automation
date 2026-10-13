@@ -98,3 +98,23 @@ JSON Response
 WhatsApp Customer Reply
 
 ```
+### System Architecture Diagram
+
+The diagram below provides a simplified overview of
+the automation architecture.
+
+![System Architecture](images/system-architecture.png)
+
+## Make.com Workflow Screenshots
+
+### 1. Complete Backend Overview
+[![Backend Overview](images/01-backend-overview.png)](images/01-backend-overview.png)
+
+### 2. Webhook, Conversation Memory and AI Extraction
+[![AI Extraction](images/02-backend-ai.png)](images/02-backend-ai.png)
+
+### 3. Product Lookup and Delivery Rules
+[![Business Rules](images/03-backend-business-rules.png)](images/03-backend-business-rules.png)
+
+### 4. Decision Routing and Response Handling
+[![Decision Routing](images/04-backend-routing.png)](images/04-backend-routing.png)
