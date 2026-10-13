@@ -64,3 +64,57 @@ the automation architecture.
 
 ### 4. Decision Routing and Response Handling
 [![Decision Routing](images/04-backend-routing.png)](images/04-backend-routing.png)
+
+
+## Tested Automation Demo
+
+The Nakuru Furniture AI Enquiry Assistant was tested
+using a real WhatsApp customer enquiry and a successful
+Make.com backend execution.
+
+**Customer message:**
+> I want two Grey sofas. Can I pay on delivery?
+
+### Verified Test Results
+
+| Test Parameter | Verified Result |
+|---|---|
+| Product | Grey L-Shaped Fabric Sofa (P001) |
+| Quantity | 2 |
+| Unit price | KSh 45,000 |
+| Product subtotal | KSh 90,000 |
+| Delivery location | Lanet |
+| Delivery fee | KSh 800 |
+| Total amount | KSh 90,800 |
+| Payment method detected | COD |
+| Decision route | Ready Order |
+| Execution status | Successful — no errors |
+
+### 1. Successful Make.com Backend Execution
+
+The Make.com execution confirmed accurate product
+identification, quantity extraction, pricing, delivery
+fee calculation, payment detection, and decision routing.
+
+[![Successful Make.com Backend Execution](images/05-successful-execution.png)](images/05-successful-execution.png)
+
+### 2. Live WhatsApp Customer Demonstration
+
+The screenshot below shows an actual WhatsApp enquiry
+and the automated customer response.
+
+The response includes the verified order calculation
+and acknowledges the customer's payment question
+without falsely confirming payment eligibility or
+placing an order.
+
+[![Live WhatsApp Automation Demo](images/06-whatsapp-demo.png)](images/06-whatsapp-demo.png)
+
+### Project Status
+
+- **V1:** Tested product enquiries, order qualification,
+  pricing, delivery calculations, and WhatsApp responses.
+- **V2:** Conversation-memory improvements remain
+  under development.
+- **Scope:** The system qualifies enquiries; it does
+  not automatically complete purchases or process payments.
